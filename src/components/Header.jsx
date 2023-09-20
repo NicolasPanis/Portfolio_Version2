@@ -9,8 +9,14 @@ function Header() {
         <Link className="home" to="/">
           Home
         </Link>
-        <Link className="home" to="/">
-          About
+        <Link className="home" to="/projects">
+          Projects
+        </Link>
+        <Link className="home" to="/info">
+          Info
+        </Link>
+        <Link className="home" to="/contact">
+          Contact
         </Link>
         <div className="lineHeader" />
       </div>
