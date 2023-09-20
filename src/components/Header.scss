@@ -1,0 +1,21 @@
+:root {
+  --main-color-black: #3a3a3a;
+  --main-color-white: #ffffff;
+}
+.top-bar {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name h3 {
+  margin: 0;
+}
+.nav a {
+  color: var(--main-color-whit);
+  font-size: 0.75rem;
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
