@@ -2,8 +2,8 @@
   position: absolute;
   top: 30px;
   left: 50px;
-  font-family: "Harmony";
-  font-size: 35px;
+  font-family: "Humane";
+  font-size: 45px;
 }
 
 .nav {
@@ -18,4 +18,9 @@
   padding-right: 0.5rem;
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.nav a:hover {
+  color: grey;
+  transition: all 0.5s ease-in-out;
 }
