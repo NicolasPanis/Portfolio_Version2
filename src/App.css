@@ -1,7 +1,37 @@
 #root {
   margin: 0 auto;
+  --main-color-black: #3a3a3a;
+  --main-color-white: #ffffff;
+  background-color: #141414;
+  width: 100%;
+  height: 100%;
 }
 
 body {
   background-color: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("./Fonts/Humane-Regular.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./Fonts/Satoshi-Regular.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Satoshi-light";
+  src: url("./Fonts/Satoshi-Light.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Harmony";
+  src: url("./Fonts/Harmony.otf") format("truetype"); /* IE9 Compat Modes */
 }

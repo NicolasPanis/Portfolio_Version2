@@ -5,9 +5,7 @@ function Header() {
   return (
     <>
       <div className="top-bar">
-        <div className="name">
-          <h3>Nicolas Panis</h3>
-        </div>
+        <div className="name">Nicolas Panis</div>
         <div className="nav">
           <Link className="home" to="/">
             Home
@@ -17,9 +15,6 @@ function Header() {
           </Link>
           <Link className="home" to="/info">
             Info
-          </Link>
-          <Link className="home" to="/contact">
-            Contact
           </Link>
           <div className="lineHeader" />
         </div>

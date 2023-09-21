@@ -1,17 +1,17 @@
-:root {
-  --main-color-black: #3a3a3a;
-  --main-color-white: #ffffff;
-}
-.top-bar {
+.name {
   position: absolute;
-  top: 0px;
-  display: flex;
-  justify-content: space-between;
+  top: 30px;
+  left: 50px;
+  font-family: "Harmony";
+  font-size: 35px;
 }
 
-.name h3 {
-  margin: 0;
+.nav {
+  position: absolute;
+  top: 45px;
+  right: 50px;
 }
+
 .nav a {
   color: var(--main-color-whit);
   font-size: 0.75rem;

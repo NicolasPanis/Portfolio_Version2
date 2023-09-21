@@ -3,10 +3,10 @@ import "./Home.scss";
 
 function Home() {
   return (
-    <div className="main">
-      Home
+    <>
       <Header />
-    </div>
+      <div className="main">Home</div>
+    </>
   );
 }
 
