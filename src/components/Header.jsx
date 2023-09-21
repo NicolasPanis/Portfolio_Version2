@@ -16,7 +16,6 @@ function Header() {
           <Link className="home" to="/info">
             Info
           </Link>
-          <div className="lineHeader" />
         </div>
       </div>
     </>
