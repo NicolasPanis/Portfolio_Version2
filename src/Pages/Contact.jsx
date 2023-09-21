@@ -1,0 +1,12 @@
+import Header from "../components/Header";
+
+function Contact() {
+  return (
+    <div>
+      Contact
+      <Header />
+    </div>
+  );
+}
+
+export default Contact;

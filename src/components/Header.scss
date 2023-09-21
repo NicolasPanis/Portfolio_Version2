@@ -1,0 +1,21 @@
+.name {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-family: "Harmony";
+  font-size: 35px;
+}
+
+.nav {
+  position: absolute;
+  top: 45px;
+  right: 50px;
+}
+
+.nav a {
+  color: var(--main-color-whit);
+  font-size: 0.75rem;
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}

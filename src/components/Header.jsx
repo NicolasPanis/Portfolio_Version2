@@ -1,18 +1,23 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import "./Header.scss";
 
 function Header() {
   return (
     <>
-      <h3>Nicolas Panis</h3>
-      <div className="nav">
-        <Link className="home" to="/">
-          Home
-        </Link>
-        <Link className="home" to="/">
-          About
-        </Link>
-        <div className="lineHeader" />
+      <div className="top-bar">
+        <div className="name">Nicolas Panis</div>
+        <div className="nav">
+          <Link className="home" to="/">
+            Home
+          </Link>
+          <Link className="home" to="/projects">
+            Projects
+          </Link>
+          <Link className="home" to="/info">
+            Info
+          </Link>
+          <div className="lineHeader" />
+        </div>
       </div>
     </>
   );
