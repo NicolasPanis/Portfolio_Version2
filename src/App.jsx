@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Info from "./Pages/Info";
 import Contact from "./Pages/Contact";
+import Scene from "./components/Scene";
 import "./App.css";
 import "./Fonts/Humane-Regular.ttf";
 import "./Fonts/Satoshi-Regular.ttf";
@@ -12,6 +13,7 @@ import "./Fonts/Harmony.otf";
 function App() {
   return (
     <div className="App">
+      <Scene />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
