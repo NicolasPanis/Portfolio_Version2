@@ -3,22 +3,21 @@ import "./Header.scss";
 
 function Header() {
   return (
-    <>
-      <div className="top-bar">
-        <div className="name">Nicolas Panis</div>
-        <div className="nav">
-          <Link className="home" to="/">
-            Home
-          </Link>
-          <Link className="home" to="/projects">
-            Projects
-          </Link>
-          <Link className="home" to="/info">
-            Info
-          </Link>
-        </div>
+    <div className="header">
+      <div className="name">
+        <Link className="home" to="/">
+          NICOLAS PANIS
+        </Link>
       </div>
-    </>
+      <div className="nav">
+        <Link className="home" to="/projects">
+          Projects
+        </Link>
+        <Link className="home" to="/info">
+          Info
+        </Link>
+      </div>
+    </div>
   );
 }
 

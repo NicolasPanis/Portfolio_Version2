@@ -2,7 +2,7 @@
   margin: 0 auto;
   --main-color-black: #3a3a3a;
   --main-color-white: #ffffff;
-  background-color: #141414;
+  background-color: #111111;
   width: 100%;
   height: 100%;
 }
@@ -29,6 +29,11 @@ body {
 @font-face {
   font-family: "Satoshi-light";
   src: url("./Fonts/Satoshi-Light.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Satoshi-medium";
+  src: url("./Fonts/Satoshi-Medium.ttf") format("truetype"); /* IE9 Compat Modes */
 }
 
 @font-face {

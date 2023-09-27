@@ -1,0 +1,38 @@
+.navTitle {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+.mainTitle {
+  font-family: "Humane";
+  font-size: 120px;
+  line-height: 1;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.navTitle a {
+  font-size: 1rem;
+  color: white;
+  font-family: "Satoshi-medium";
+}
+
+.navTitle a:hover {
+  color: grey;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Footer.scss";
 function Footer() {
   return (
-    <div>
+    <div className="footer">
       <div className="job">Front end Developper</div>
       <div className="contact">
         <a

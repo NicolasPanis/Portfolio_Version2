@@ -1,26 +1,58 @@
+.header {
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
 .name {
   position: absolute;
-  top: 30px;
+  top: 40px;
   left: 50px;
-  font-family: "Humane";
-  font-size: 45px;
+  font-family: "Satoshi";
+  font-size: 20px;
+  z-index: 1;
+}
+
+.name a {
+  color: var(--main-color-white);
+}
+
+.name a:hover {
+  color: grey;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav {
   position: absolute;
+  animation-duration: 1s;
+  animation-delay: 0s;
   top: 45px;
   right: 50px;
+  font-family: "Satoshi-medium";
 }
 
 .nav a {
-  color: var(--main-color-whit);
+  color: var(--main-color-white);
   font-size: 0.75rem;
   padding-right: 0.5rem;
   text-transform: uppercase;
   text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .nav a:hover {
   color: grey;
   transition: all 0.5s ease-in-out;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
